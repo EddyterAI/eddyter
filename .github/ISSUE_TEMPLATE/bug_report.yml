@@ -1,0 +1,82 @@
+name: 🐛 Bug report
+description: Something is broken in the Eddyter editor
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug!
+        Before filing, please [search existing issues](https://github.com/EddyterAI/eddyter/issues?q=is%3Aissue) to avoid duplicates.
+
+  - type: input
+    id: version
+    attributes:
+      label: eddyter version
+      description: Run `npm ls eddyter` (or check `package.json`).
+      placeholder: "1.4.12"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: setup
+    attributes:
+      label: Project setup
+      options:
+        - React (Vite / CRA)
+        - Next.js (App Router)
+        - Next.js (Pages)
+        - Other (describe in environment section)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: When I do X, Y happens. I expected Z.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Minimal steps that reproduce the issue. A link to a CodeSandbox, StackBlitz, or repo is best.
+      placeholder: |
+        1. Install `eddyter@1.4.12`
+        2. Render `<ConfigurableEditorWithAuth apiKey="..." />`
+        3. Click the AI button
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, OS, framework version, anything else relevant
+      placeholder: |
+        - Browser: Chrome 130
+        - OS: macOS 15.1
+        - Framework: Next.js 14.2.5
+        - Node: 20.10.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console / network errors
+      description: Paste any errors from browser console or network tab.
+      render: text
+    validations:
+      required: false

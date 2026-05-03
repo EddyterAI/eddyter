@@ -1,0 +1,43 @@
+name: 💡 Feature request
+description: Suggest a new feature or improvement for Eddyter
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea! Please check [existing requests](https://github.com/EddyterAI/eddyter/issues?q=is%3Aissue+label%3Aenhancement) before opening a new one.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the situation that led you to want this feature.
+      placeholder: "I'm building a CMS and I need to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How would you like Eddyter to solve it?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Other approaches, libraries, or workarounds you've tried.
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: How important is this to you?
+      options:
+        - Nice to have
+        - Would significantly improve my product
+        - Blocking my project
+    validations:
+      required: true

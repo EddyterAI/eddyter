@@ -1,0 +1,22 @@
+title: "[Q]: "
+labels: ["question"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: What are you trying to do?
+      description: Describe what you're building and what's not clear.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried so far?
+      description: Code snippets, error messages, things you've already tested.
+
+  - type: input
+    id: version
+    attributes:
+      label: eddyter version
+      placeholder: "1.4.12"

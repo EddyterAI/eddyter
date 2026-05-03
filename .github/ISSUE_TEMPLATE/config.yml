@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Question / how-to
+    url: https://github.com/EddyterAI/eddyter/discussions
+    about: For "how do I…" questions, use Discussions instead of Issues.
+  - name: 🎮 Live demo
+    url: https://eddyter.com
+    about: Try Eddyter without installing anything.
+  - name: 📘 Documentation
+    url: https://www.cteditor.com/docs
+    about: Full API reference and guides.
+  - name: 💬 Discord
+    url: https://discord.com/channels/1457444571104542803/1457444572081819690
+    about: Real-time community chat.
