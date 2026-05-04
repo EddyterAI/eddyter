@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://eddyter.com">Live demo</a> ·
-  <a href="https://www.cteditor.com/docs">Documentation</a> ·
+  <a href="https://eddyter.com/docs">Documentation</a> ·
   <a href="https://github.com/EddyterAI/examples">Examples</a> ·
   <a href="https://www.npmjs.com/package/eddyter">npm</a> ·
   <a href="https://discord.com/channels/1457444571104542803/1457444572081819690">Discord</a>
