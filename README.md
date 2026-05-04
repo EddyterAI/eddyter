@@ -8,88 +8,101 @@
 
 <p align="center">
   <b>Write and Edit with AI — Smarter, faster, effortlessly.</b><br>
-  The plug-and-play rich text editor SDK for developers.
+  The plug-and-play rich text editor SDK for developers.<br>
+  Drop into your React (or Next.js) app in 10 minutes.<br>
+  AI, storage, and infra fully managed.
 </p>
 
 <p align="center">
-  <a href="https://eddyter.com">Live demo</a> ·
-  <a href="https://eddyter.com/docs">Documentation</a> ·
-  <a href="https://github.com/EddyterAI/examples">Examples</a> ·
-  <a href="https://www.npmjs.com/package/eddyter">npm</a> ·
-  <a href="https://discord.com/channels/1457444571104542803/1457444572081819690">Discord</a>
+  <a href="https://eddyter.com"><img src="https://img.shields.io/badge/demo-eddyter.com-orange" alt="Live demo"></a>
+  <a href="https://eddyter.com/docs"><img src="https://img.shields.io/badge/docs-eddyter.com-blue" alt="Docs"></a>
+  <a href="https://www.npmjs.com/package/eddyter"><img src="https://img.shields.io/npm/v/eddyter" alt="npm eddyter"></a>
+  <a href="https://discord.com/channels/1457444571104542803/1457444572081819690"><img src="https://img.shields.io/badge/discord-join-5865F2" alt="Discord"></a>
+</p>
+
+<p align="center">
+  ▶️ <b><a href="https://youtu.be/oNHBa-DImZc">Watch: What is Eddyter? (90 seconds)</a></b> &nbsp;·&nbsp; <b><a href="https://youtu.be/5lTjRFjUWgs">Watch: Integrate Eddyter in 30 minutes</a></b>
 </p>
 
 ---
 
-## What is this repo?
+## Why teams choose Eddyter
 
-This is the **public issue tracker and discussion home** for Eddyter. The editor itself ships as the [`eddyter`](https://www.npmjs.com/package/eddyter) npm package — **this repo doesn't host the source.** Use it to:
+> *The editor isn't your core product. Speed is.*
 
-- 🐛 [**Report a bug**](https://github.com/EddyterAI/eddyter/issues/new?template=bug_report.yml)
-- 💡 [**Request a feature**](https://github.com/EddyterAI/eddyter/issues/new?template=feature_request.yml)
-- ❓ [**Ask a question**](https://github.com/EddyterAI/eddyter/discussions)
+- ⚡ **AI + Storage + Infra = One decision** — stop managing three vendors, get everything in one subscription.
+- 🛠 **Editors aren't your core product** — why spend 100+ hours on something that should take 10 minutes?
+- 💸 **Engineering time is expensive** — every hour on editor setup is an hour not spent on what matters.
+- 🎛 **Sane defaults beat endless config** — most teams don't need infinite flexibility, they need it to work.
 
-## Get started
+## What's inside
+
+- 🤖 **AI-powered features** — ask anything, generate images, rewrite, corrections, change models, tone options
+- ⚡ **Quick Action** — instant transformations on selected text, one click
+- 🎙 **Record. Transcribe.** — voice → clean editable text, zero typing
+- 💬 **Comment on Text** — real-time inline comments and feedback
+- ✍️ **Sentence correction** — grammar, clarity, and flow in one click
+- 🖼 **Image generation** — built-in, multi-provider (OpenAI / Grok / Gemini)
+- 🔌 **BYOK or managed** — bring your own API keys, or use ours
+
+## Quick start
+
+### 1. Get your API key
+
+[Grab a free API key →](https://eddyter.com/user/license-key)
+
+### 2. Install
 
 ```bash
 npm install eddyter
 ```
 
+### 3. Integrate
+
 ```tsx
-import {
-  ConfigurableEditorWithAuth,
-  EditorProvider,
-  defaultEditorConfig,
-} from "eddyter";
+import { ConfigurableEditorWithAuth, EditorProvider } from "eddyter";
 import "eddyter/style.css";
 
-<EditorProvider
-  defaultFontFamilies={defaultEditorConfig.defaultFontFamilies}
-  currentUser={{ id: "u1", name: "Akash", email: "akash@example.com" }}
->
-  <ConfigurableEditorWithAuth
-    apiKey={process.env.NEXT_PUBLIC_EDDYTER_API_KEY!}
-    onChange={(html) => console.log(html)}
-  />
-</EditorProvider>;
+export default function App() {
+  return (
+    <EditorProvider>
+      <ConfigurableEditorWithAuth
+        apiKey={process.env.NEXT_PUBLIC_EDDYTER_API_KEY}
+        onChange={(html) => console.log(html)}
+        initialContent="<p>Start writing...</p>"
+      />
+    </EditorProvider>
+  );
+}
 ```
 
-That's it. AI, storage, and infra are handled. Get a free API key at [eddyter.com](https://eddyter.com).
+That's the full integration. AI, storage, and infra are handled for you.
 
-[**Full React example →**](https://github.com/EddyterAI/examples/tree/main/react)
+[**See the full React example →**](https://github.com/EddyterAI/examples/tree/main/react)
 
 ## Framework support
 
-- ✅ **React** — ships today
-- ✅ **Next.js** — use `eddyter` with `next/dynamic` ([guide](https://github.com/EddyterAI/examples/tree/main/react#using-in-nextjs))
-- 🔜 **Vue** — coming soon
-- 🔜 **Svelte** — coming soon
-
-## Why Eddyter
-
-- ⚡ **AI + Storage + Infra = One decision** — one subscription, three vendors gone
-- 🛠 **Editors aren't your core product** — 100+ hours → 10 minutes
-- 💸 **Engineering time is expensive** — every hour on editor setup is one not spent on what matters
-- 🎛 **Sane defaults beat endless config** — most teams need it to work, not infinite knobs
-
-## Communication
-
-Pick the right channel for what you need:
-
-| What | Where |
+| Framework | Status |
 |---|---|
-| Bug in the editor | [Bug report issue](https://github.com/EddyterAI/eddyter/issues/new?template=bug_report.yml) |
-| Feature idea | [Feature request issue](https://github.com/EddyterAI/eddyter/issues/new?template=feature_request.yml) |
-| Question / how-to | [GitHub Discussions](https://github.com/EddyterAI/eddyter/discussions) |
-| Real-time chat | [Discord](https://discord.com/channels/1457444571104542803/1457444572081819690) |
-| Account / billing | [eddyter.com support](https://eddyter.com) |
+| **React** | ✅ Ships today via [`eddyter`](https://www.npmjs.com/package/eddyter) |
+| **Next.js** | ✅ Use `eddyter` with `next/dynamic` — [example](https://github.com/EddyterAI/examples/tree/main/react#using-in-nextjs) |
+| **Vue** | 🔜 Coming soon |
+| **Svelte** | 🔜 Coming soon |
+
+## Resources
+
+- 🎮 [**Live demo**](https://eddyter.com) — try the editor without signing up
+- 📘 [**Documentation**](https://eddyter.com/docs) — full API reference and guides
+- 💡 [**Examples**](https://github.com/EddyterAI/examples) — runnable starter projects
+- 🐛 [**Issues & feedback**](https://github.com/EddyterAI/eddyter/issues) — report bugs or request features
+- 💬 [**Discussions**](https://github.com/EddyterAI/eddyter/discussions) — community Q&A
 
 ## Stay in the loop
 
-[Twitter / X](https://x.com/EddyterAI) · [LinkedIn](https://www.linkedin.com/company/eddyter) · [YouTube](https://www.youtube.com/@AIEddyter) · [Instagram](https://www.instagram.com/eddyterai/) · [Facebook](https://www.facebook.com/profile.php?id=61587640901054)
+[Twitter / X](https://x.com/EddyterAI) · [LinkedIn](https://www.linkedin.com/company/eddyter) · [YouTube](https://www.youtube.com/@AIEddyter) · [Instagram](https://www.instagram.com/eddyterai/) · [Facebook](https://www.facebook.com/profile.php?id=61587640901054) · [Discord](https://discord.com/channels/1457444571104542803/1457444572081819690)
 
 ---
 
 <p align="center">
-  Built by <a href="https://eddyter.com">Craxinno Technologies</a>.
+  Built by <a href="https://eddyter.com">Craxinno Technologies</a> · Made for developers who'd rather ship product than build editors.
 </p>
