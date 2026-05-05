@@ -60,6 +60,8 @@ npm install eddyter
 ### 3. Integrate
 
 ```tsx
+"use client";
+
 import { ConfigurableEditorWithAuth, EditorProvider } from "eddyter";
 import "eddyter/style.css";
 
@@ -75,6 +77,8 @@ export default function App() {
   );
 }
 ```
+
+> **Next.js note:** the `"use client"` directive at the top is required for Next.js App Router. It's harmless in plain React / Vite — leave it in.
 
 That's the full integration. AI, storage, and infra are handled for you.
 
