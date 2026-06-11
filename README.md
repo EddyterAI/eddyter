@@ -138,8 +138,8 @@ That's the full integration. AI, storage, and infra are handled for you.
 | **Vue** | `@eddyter/vue` |
 | **Angular** | `@eddyter/angular` |
 | **Svelte** | `@eddyter/svelte` |
-| **Vanilla JS** | `eddyter` — no framework required |
-| **PHP / Laravel** | `eddyter/laravel` on Packagist |
+| **Vanilla JS** | `@eddyter/core` |
+| **PHP / Laravel** | `@eddyter/core` |
 
 ## Resources
 
