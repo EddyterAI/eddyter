@@ -7,7 +7,9 @@
 
 <p>
   <b>Write and edit with AI — fast, built for developers.</b><br>
-  The plug-and-play rich text editor SDK. Drop into your React (or Next.js) app in <b>10 minutes</b> — AI, storage, and infra fully managed.
+  The plug-and-play rich text editor SDK.<br>
+  Integrate in <b>10 minutes</b>. AI, storage, and infra fully managed.<br>
+  Works with React · Next.js · Vue · Angular · Svelte · Laravel · Vanilla JS.
 </p>
 
 <p>
@@ -77,7 +79,7 @@
   </tr>
   <tr>
     <td><b>Inline comments</b></td>
-    <td>Real-time comments and feedback on any text selection.</td>
+    <td>Comments and feedback on any text selection.</td>
   </tr>
   <tr>
     <td><b>Sentence correction</b></td>
