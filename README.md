@@ -22,7 +22,7 @@
 
 <!-- ===================== VIDEO ===================== -->
 <a href="https://youtu.be/oNHBa-DImZc">
-  <img src="https://img.youtube.com/vi/oNHBa-DImZc/maxresdefault.jpg" width="720" alt="What is Eddyter?">
+  <img src="https://dsckj64r0usqg.cloudfront.net/assets/laptop-mockup.png" width="720" alt="What is Eddyter?">
 </a>
 
 <p>
