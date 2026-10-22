@@ -1,160 +1,159 @@
-<!-- ===================== HERO ===================== -->
-<div align="center">
+<!--
+  This file is the organization profile shown at github.com/EddyterAI.
+  Lines marked TODO need a real link or confirmed fact before publishing.
+-->
 
-<a href="https://eddyter.com">
-  <img src="https://dsckj64r0usqg.cloudfront.net/assets/eddyter-banner-1.png" width="880" alt="Eddyter — the plug-and-play AI editor for React & Next.js">
-</a>
-
-<p>
-  <b>Write and edit with AI — fast, built for developers.</b><br>
-  The plug-and-play rich text editor SDK.<br>
-  Integrate in <b>10 minutes</b>. AI, storage, and infra fully managed.<br>
-  Works with React · Next.js · Vue · Angular · Svelte · Laravel · Vanilla JS.
+<p align="center">
+  <a href="https://www.eddyter.com">
+    <!-- TODO: replace with a 10–15 second GIF of the slash menu, AI rewrite and a table -->
+    <img src="https://dsckj64r0usqg.cloudfront.net/assets/laptop-mockup.png" alt="Eddyter, the AI rich text editor for React, Next.js, Vue, Angular, Svelte and Laravel" width="760">
+  </a>
 </p>
 
-<p>
-  <a href="https://eddyter.com"><img src="https://img.shields.io/badge/live_demo-eddyter.com-a3e635?style=flat" alt="Live demo"></a>
-  <a href="https://eddyter.com/docs"><img src="https://img.shields.io/badge/docs-eddyter.com%2Fdocs-a3e635?style=flat" alt="Docs"></a>
-  <a href="https://www.npmjs.com/package/eddyter"><img src="https://img.shields.io/npm/v/eddyter?style=flat&label=npm&color=a3e635" alt="npm version"></a>
-  <a href="https://www.npmjs.com/package/eddyter"><img src="https://img.shields.io/npm/dm/eddyter?style=flat&label=downloads&color=a3e635" alt="npm downloads"></a>
-  <a href="https://discord.com/channels/1457444571104542803/1457444572081819690"><img src="https://img.shields.io/badge/discord-join_us-8b5cf6?style=flat" alt="Discord"></a>
+<h1 align="center">Eddyter</h1>
+
+<p align="center">
+  <strong>The plug-and-play AI rich text editor for your app.</strong><br>
+  Integrate in 10 minutes. AI, storage and infrastructure are fully managed.
 </p>
 
-<!-- ===================== VIDEO ===================== -->
-<a href="https://youtu.be/oNHBa-DImZc">
-  <img src="https://dsckj64r0usqg.cloudfront.net/assets/laptop-mockup.png" width="720" alt="What is Eddyter?">
-</a>
-
-<p>
-  ▶️ <b><a href="https://youtu.be/oNHBa-DImZc">Watch: What is Eddyter? (90 seconds)</a></b>
-  &nbsp;·&nbsp;
-  <b><a href="https://youtu.be/5lTjRFjUWgs">Watch: Integrate Eddyter in 30 minutes</a></b>
+<p align="center">
+  <a href="https://www.eddyter.com">Live demo</a> ·
+  <a href="https://eddyter.com/docs">Docs</a> ·
+  <a href="https://github.com/EddyterAI/examples">Examples</a> ·
+  <a href="https://www.eddyter.com/user/license-key">Free API key</a> ·
+  <a href="https://github.com/EddyterAI/eddyter/discussions">Community</a>
 </p>
 
-</div>
+<p align="center">
+  Works with <b>React</b> · <b>Next.js</b> · <b>Vue</b> · <b>Angular</b> · <b>Svelte</b> · <b>Laravel</b> · <b>React Native</b> · <b>Vanilla JS</b>
+</p>
+
+<!-- TODO: uncomment once translated READMEs exist in the eddyter repo
+<p align="center">
+  <a href="https://github.com/EddyterAI/eddyter/blob/main/README.md">English</a> ·
+  <a href="https://github.com/EddyterAI/eddyter/blob/main/README.zh-CN.md">简体中文</a> ·
+  <a href="https://github.com/EddyterAI/eddyter/blob/main/README.es.md">Español</a> ·
+  <a href="https://github.com/EddyterAI/eddyter/blob/main/README.pt-BR.md">Português</a> ·
+  <a href="https://github.com/EddyterAI/eddyter/blob/main/README.ja.md">日本語</a>
+</p>
+-->
 
 ---
 
+## What is Eddyter?
+
+Eddyter is a ready-made rich text editor you add to your product with one component. It includes AI writing tools, comments, tables, media, Markdown, version history and an email template builder, so your team doesn't have to build, host or maintain an editor.
+
+It's used for blogs and CMS platforms, CRMs and helpdesks, SaaS dashboards, learning platforms and internal tools.
+
+▶️ [What is Eddyter? (90 seconds)](https://youtu.be/oNHBa-DImZc) · [Integrate Eddyter step by step](https://youtu.be/5lTjRFjUWgs)
+
 ## Why teams choose Eddyter
 
-> *The editor isn't your core product. Speed is.*
+**The editor isn't your core product. Shipping is.**
 
-<table>
-  <tr>
-    <td width="34%" valign="top"><b>One decision, not three</b></td>
-    <td valign="top">AI + storage + infra in a single subscription — stop managing three vendors.</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>10 minutes, not 100 hours</b></td>
-    <td valign="top">Editors aren't your core product. Don't spend a quarter building one.</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Engineering time is expensive</b></td>
-    <td valign="top">Every hour on editor setup is an hour not spent on what matters.</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Sane defaults beat endless config</b></td>
-    <td valign="top">Most teams don't need infinite flexibility — they need it to work.</td>
-  </tr>
-</table>
+| | |
+|---|---|
+| **One subscription, not three vendors** | AI, storage and infrastructure in one place. |
+| **10 minutes, not 100 hours** | Don't spend a quarter building and maintaining an editor. |
+| **Your choice of AI** | Bring your own API keys, or use ours. Switch models any time. |
+| **Sensible defaults** | It works out of the box. Turn features on or off from your dashboard, without code changes. |
 
 ## What's inside
 
-<table>
-  <thead>
-    <tr><th align="left">Feature</th><th align="left">What you get</th></tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td width="34%"><b>AI-powered writing</b></td>
-    <td>Ask anything, rewrite, corrections, tone options, switchable models.</td>
-  </tr>
-  <tr>
-    <td><b>Quick Action</b></td>
-    <td>Instant transformations on selected text — one click.</td>
-  </tr>
-  <tr>
-    <td><b>Record &amp; transcribe</b></td>
-    <td>Voice in, clean editable text out. Zero typing.</td>
-  </tr>
-  <tr>
-    <td><b>Inline comments</b></td>
-    <td>Comments and feedback on any text selection.</td>
-  </tr>
-  <tr>
-    <td><b>Sentence correction</b></td>
-    <td>Grammar, clarity, and flow in one click.</td>
-  </tr>
-  <tr>
-    <td><b>Image generation</b></td>
-    <td>Built-in, multi-provider — OpenAI / Grok / Gemini.</td>
-  </tr>
-  <tr>
-    <td><b>BYOK or managed</b></td>
-    <td>Bring your own API keys, or use ours.</td>
-  </tr>
-  </tbody>
-</table>
+| Feature | What you get |
+|---|---|
+| AI writing | Ask anything, rewrite, shorten, expand, fix grammar and change tone, with switchable models |
+| Quick actions | One-click changes to selected text |
+| Voice input | Speak, and get clean, editable text |
+| Inline comments and @mentions | Feedback on any text selection |
+| Image generation | Built in, with OpenAI, Grok or Gemini |
+| Tables, media and embeds | Resizable tables, images, video, files and link previews |
+| Markdown | Import, export and shortcuts |
+| Version history | Save, preview and restore document versions |
+| Email templates | Drag-and-drop builder with email-safe HTML and merge tags |
 
 ## Quick start
 
-### 1 — Get your API key
+**1. Get a free API key** at [eddyter.com](https://www.eddyter.com/user/license-key)
 
-[Grab a free API key →](https://eddyter.com/user/license-key)
-
-### 2 — Install
+**2. Install**
 
 ```bash
 npm install eddyter
 ```
 
-### 3 — Integrate
+**3. Add the editor**
 
 ```tsx
+'use client'; // Needed for the Next.js App Router. Harmless in plain React or Vite.
+
+import { useState } from 'react';
 import { ConfigurableEditorWithAuth, EditorProvider } from 'eddyter';
 import 'eddyter/style.css';
 
 export default function App() {
+  const [html, setHtml] = useState('');
+
   return (
     <EditorProvider>
-      <ConfigurableEditorWithAuth apiKey={apiKey} onChange={handleContentChange} />
+      <ConfigurableEditorWithAuth
+        apiKey={process.env.NEXT_PUBLIC_EDDYTER_API_KEY!}
+        onChange={setHtml}
+      />
     </EditorProvider>
   );
 }
 ```
 
-> **Note** — Using the Next.js App Router? Add the `"use client"` directive at the top of the file. It's harmless in plain React / Vite — you can leave it in.
+That's the full integration. Content arrives as HTML in `onChange`, ready to save in your own database.
 
-That's the full integration. AI, storage, and infra are handled for you.
-
-[**See the full React example →**](https://github.com/EddyterAI/examples/tree/main/react)
+[See the full React example →](https://github.com/EddyterAI/examples)
 
 ## Framework support
 
 | Framework | Package |
 |---|---|
-| **React** | [`eddyter`](https://www.npmjs.com/package/eddyter) |
-| **Next.js** | `eddyter` with `next/dynamic` — [example](https://github.com/EddyterAI/examples/tree/main/react#using-in-nextjs) |
-| **Vue** | `@eddyter/vue` |
-| **Angular** | `@eddyter/angular` |
-| **Svelte** | `@eddyter/svelte` |
-| **Vanilla JS** | `@eddyter/core` |
-| **PHP / Laravel** | `@eddyter/core` |
+| React | [`eddyter`](https://www.npmjs.com/package/eddyter) |
+| Next.js | [`eddyter`](https://www.npmjs.com/package/eddyter) with the `'use client'` directive |
+| Vue / Nuxt | [`@eddyter/vue`](https://www.npmjs.com/package/@eddyter/vue) |
+| Angular | [`@eddyter/angular`](https://www.npmjs.com/package/@eddyter/angular) |
+| Svelte | [`@eddyter/svelte`](https://www.npmjs.com/package/@eddyter/svelte) |
+| Laravel (Blade, Livewire) | [`eddyter/laravel`](https://github.com/EddyterAI/laravel) |
+| React Native | [`@eddyter/react-native`](https://www.npmjs.com/package/@eddyter/react-native) |
+| Vanilla JS / other | [`@eddyter/core`](https://www.npmjs.com/package/@eddyter/core) |
+| AI coding tools (Claude, Cursor, Codex) | [`eddyter-mcp`](https://github.com/EddyterAI/eddyter-mcp) |
 
-## Resources
+## For businesses
 
-- 🎮 [**Live demo**](https://eddyter.com) — try the editor without signing up
-- 📘 [**Documentation**](https://eddyter.com/docs) — full API reference and guides
-- 💡 [**Examples**](https://github.com/EddyterAI/examples) — runnable starter projects
-- 🐛 [**Issues & feedback**](https://github.com/EddyterAI/eddyter/issues) — report bugs or request features
-- 💬 [**Discussions**](https://github.com/EddyterAI/eddyter/discussions) — community Q&A
+<!-- TODO: confirm each statement and replace links before publishing -->
+- **Your content stays yours.** The editor returns HTML to your app, and you store it where you choose.
+- **Privacy and data handling:** [Privacy policy](https://www.eddyter.com/privacy-policy)
+- **Security:** see our [security policy](https://github.com/EddyterAI/.github/blob/main/SECURITY.md)
+- **Licensing, invoices and enterprise plans:** [contact us](mailto:support@eddyter.com)
 
-## Stay in the loop
+<!-- TODO: add when you have permission from customers
+## Trusted by
+<p>
+  <img src="LOGO_URL" alt="Company" height="32">
+</p>
+-->
 
-[Twitter / X](https://x.com/EddyterAI) · [LinkedIn](https://www.linkedin.com/company/eddyter) · [YouTube](https://www.youtube.com/@AIEddyter) · [Instagram](https://www.instagram.com/eddyterai/) · [Facebook](https://www.facebook.com/profile.php?id=61587640901054) · [Discord](https://discord.com/channels/1457444571104542803/1457444572081819690)
+## Community and support
+
+| | |
+|---|---|
+| 📘 [Documentation](https://eddyter.com/docs) | Guides and full API reference |
+| 💡 [Examples](https://github.com/EddyterAI/examples) | Runnable starter projects for each framework |
+| 💬 [Discussions](https://github.com/EddyterAI/eddyter/discussions) | Questions, ideas and show-and-tell |
+| 🐛 [Issues](https://github.com/EddyterAI/eddyter/issues/new/choose) | Bug reports and feature requests |
+| 🎮 [Discord](https://discord.com/channels/1457444571104542803/1457444572081819690) | Chat with the team and other developers |
+
+If Eddyter saves you time, please ⭐ [star the repository](https://github.com/EddyterAI/eddyter). It helps other developers find it.
+
+**Stay in the loop:** [X](https://x.com/EddyterAI) · [LinkedIn](https://www.linkedin.com/company/eddyter) · [YouTube](https://www.youtube.com/@AIEddyter) · [Instagram](https://www.instagram.com/eddyterai/) · [Facebook](https://www.facebook.com/profile.php?id=61587640901054)
 
 ---
 
-<p align="center">
-  Built by <a href="https://eddyter.com">Craxinno Technologies</a> · Made for developers who'd rather ship product than build editors.
-</p>
+<sub>Built by <a href="https://craxinno.com">Craxinno Technologies</a> for developers who would rather ship their product than build an editor.</sub>
