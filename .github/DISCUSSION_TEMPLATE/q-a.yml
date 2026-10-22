@@ -1,0 +1,27 @@
+title: "[Q&A] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask anything about using Eddyter. When you get a good answer, please mark it as the answer so others can find it.
+
+        > ⚠️ **Never paste your API key.** Replace it with `YOUR_API_KEY`.
+  - type: input
+    id: stack
+    attributes:
+      label: Framework and package version
+      placeholder: "Next.js 15 (App Router), eddyter 1.4.28"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and what have you tried so far?
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Relevant code (optional)
+      render: tsx

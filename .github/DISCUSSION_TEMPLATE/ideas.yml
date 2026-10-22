@@ -1,0 +1,24 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share an idea for Eddyter. Upvote ideas you like; we review the most popular ones when planning.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What's hard or impossible to do today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations:
+      required: true
+  - type: input
+    id: usecase
+    attributes:
+      label: Where would you use it?
+      placeholder: "A CRM for real estate agents"
