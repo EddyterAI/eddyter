@@ -139,12 +139,13 @@ That's the full integration. AI, storage, and infra are handled for you.
 | **Angular** | `@eddyter/angular` |
 | **Svelte** | `@eddyter/svelte` |
 | **Vanilla JS** | `@eddyter/core` |
-| **PHP / Laravel** | `@eddyter/core` |
+| **PHP / Laravel** | [`eddyter/laravel`](https://github.com/EddyterAI/laravel) (Composer) |
 
 ## Resources
 
 - 🎮 [**Live demo**](https://eddyter.com) — try the editor without signing up
 - 📘 [**Documentation**](https://eddyter.com/docs) — full API reference and guides
+- 📂 [**Documentation (Markdown)**](docs/README.md) — per-framework guides and API reference in this repo
 - 💡 [**Examples**](https://github.com/EddyterAI/examples) — runnable starter projects
 - 🐛 [**Issues & feedback**](https://github.com/EddyterAI/eddyter/issues) — report bugs or request features
 - 💬 [**Discussions**](https://github.com/EddyterAI/eddyter/discussions) — community Q&A
