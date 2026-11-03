@@ -1,0 +1,11 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Eddyter",
+  "description": "AI rich text editor SDK for React, Next.js, Vue, Svelte, Angular, Laravel and vanilla JS",
+  "folders": ["docs"],
+  "rules": [
+    "Install with `npm install eddyter` and import 'eddyter/style.css'",
+    "Wrap ConfigurableEditorWithAuth in EditorProvider and pass an apiKey from https://eddyter.com/user/license-key",
+    "In the Next.js App Router, put the editor in a 'use client' component"
+  ]
+}
