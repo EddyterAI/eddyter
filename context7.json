@@ -1,5 +1,7 @@
 {
   "$schema": "https://context7.com/schema/context7.json",
+  "url": "https://context7.com/eddyterai/eddyter",
+  "public_key": "pk_5IqxozRX4C5WfsAO4CFih",
   "projectTitle": "Eddyter",
   "description": "AI rich text editor SDK for React, Next.js, Vue, Svelte, Angular, Laravel and vanilla JS",
   "folders": ["docs"],
