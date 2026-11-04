@@ -8,6 +8,8 @@
   "rules": [
     "Install with `npm install eddyter` and import 'eddyter/style.css'",
     "Wrap ConfigurableEditorWithAuth in EditorProvider and pass an apiKey from https://eddyter.com/user/license-key",
-    "In the Next.js App Router, put the editor in a 'use client' component"
+    "In the Next.js App Router, put the editor in a 'use client' component",
+    "AI features (chat, autocomplete, refinement, image generation) are enabled per API key in the Eddyter dashboard, not in code. There is no aiOptions, ai, enableAI or autocomplete prop.",
+    "Use the package for the framework: @eddyter/vue, @eddyter/svelte, @eddyter/angular, @eddyter/core (vanilla JS), @eddyter/react-native, or eddyter/laravel (Composer). The eddyter package is for React and Next.js only."
   ]
 }
